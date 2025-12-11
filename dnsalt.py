@@ -32,7 +32,7 @@ VERSION = "v. 0.1"
 # --------------------------------------------------------------------------------------------------
 
 
-class DomainPermutator:
+class dnsalt:
     """Generate domain name permutations, meaning adding different versions of that name by changing
     letters, adding symbols, or rearranging parts."""
 
@@ -112,7 +112,7 @@ class DomainPermutator:
 
     # I just looked up the common most TLDs here.
     COMMON_TLDS = [
-        'com', 'net', 'org', 'co', 'io', 'ai' 'biz', 'info', 'edu', 'gov',
+        'com', 'net', 'org', 'co', 'io', 'ai', 'biz', 'info', 'edu', 'gov',
         'uk', 'de', 'fr', 'cn', 'ru', 'br', 'in', 'au', 'ca', 'jp', 'xyz',
         'shop', 'pro'
     ]
@@ -656,7 +656,7 @@ Examples:
 
 def super_cool_banner():
     """This program will probably not even work without this."""
-    print("\n" * 50)
+    print("\n" * 5)
     print("""
        _            _             _            _                   _           _       
       /\ \         /\ \     _    / /\         / /\                _\ \        /\ \     
