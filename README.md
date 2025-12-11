@@ -1,4 +1,4 @@
-# Domain Name Permutation Generator
+# dnsalt
 
 A Python script for generating domain name permutations stuff to detect typosquatting, cybersquatting, and phishing domains. Useful for security research, brand protection, and penetration testing.
 
